@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(22, 2, 2);
+    height: 100%;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.mycalc{
+    color: linear-gradient(90deg, rgba(1,0,48,1) 0%, rgba(0,18,103,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+    color: rgb(3, 0 ,177);
+    width: 350px;
+    height: 381px;
+    background-color: rgb(22, 2, 2);
+    padding: 5px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    font-size: xx-large;
+    box-shadow: 0px 0px 12px 1px #cf1313;
+
+}
+.output{
+    font-family: 'Audiowide', cursive;
+    display: inherit;
+    height: 64px;
+    font-size: 1.5em;
+    overflow: hidden;
+    justify-content: end;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.btn{
+    font-family: 'Audiowide', cursive;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 8px 1px red;
+}
+
+
+.row{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: auto;
+}
+@media screen and (max-width: 375px) {
+   .mycalc{
+    width: 60%;
+    height: 34%;
+   }
+   .row{
+       height: fit-content;
+   }
+   .btn{
+        width: 100%;
+        height: 31px;
+        padding: 7px;
+        margin: 3px;
+       
+        text-align: center;
+        font-size: x-large;
+        cursor: pointer;
+   }
+   .output{
+       font-size: x-large;
+   }
+}
