@@ -16,7 +16,7 @@
     /* background-color: linear-gradient(90deg, rgb(27, 27, 29/ 0%), rgb(1, 8, 41/ 100%), rgb(26, 23, 23/ 100%), rgb(34, 28, 28/ 100%)); */
     
     width: 350px;
-    height: 381px;
+    height: 385px;
     /* background-color: rgb(63, 30, 30); */
     padding: 5px;
     border-radius: 9px;
@@ -33,14 +33,15 @@
 .output{
     font-family: 'Audiowide', cursive;
     display: inherit;
-    height: 64px;
+    /* height: 64px; */
     font-size: 1.5em;
     overflow: hidden;
     justify-content: end;
     align-items: center;
-    margin-right: 8px;
+    margin-right: 2px;
     border: 3px solid;
     border-width: 2px 0;
+    border-radius: 5px;
 }
 
 .btn{
@@ -73,7 +74,7 @@
 @media screen and (max-width: 375px) {
    .mycalc{
     width: 60%;
-    height: 34%;
+    height: 45%;
    }
    .row{
        height: fit-content;
