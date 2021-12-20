@@ -9,6 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding-top: 15%;
  
 }
 
@@ -18,7 +21,7 @@
     width: 350px;
     height: 385px;
     /* background-color: rgb(63, 30, 30); */
-    padding: 5px;
+    padding: 4px;
     border-radius: 9px;
     display: flex;
     flex-direction: column;
@@ -28,6 +31,7 @@
     flex-wrap: nowrap;
     font-size: xx-large;
     box-shadow: 0px 0px 12px 1px #000000;
+    flex-flow: column;
 
 }
 .output{
@@ -70,6 +74,29 @@
     justify-content: space-around;
     align-content: center;
     height: auto;
+}
+.footercss{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+    padding: 4% 0;
+    width: auto
+}
+.footerdiv{
+    color: white;
+    border: double rgba(255,255,255,.25);
+    border-width: 4px 0;
+}
+h2{
+    margin: 3% 0;
+}
+  
+a{
+    text-decoration: none; 
+    color: white
+}
+a:hover{
+    color: #00a96b;
 }
 @media screen and (max-width: 375px) {
    .mycalc{
